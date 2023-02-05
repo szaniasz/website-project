@@ -1,0 +1,31 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    overflow: scroll;
+    font-family: -apple-system, Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .header {
+    background-color: #1f2937;
+    padding: 5px 200px 5px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .header a {
+    color: #e5e7eb;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
