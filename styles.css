@@ -79,6 +79,7 @@ body {
   }
 
   button {
+    font-weight: 800;
     background-color: #3882f6;
     color: #f9faf8;
     padding: 5px 25px;
@@ -137,4 +138,71 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+  }
+
+  .quote {
+    background-color: #e5e7eb;
+    min-width: 500px;
+    padding: 100px 200px 100px 200px;
+  }
+
+  .quote .text {
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+  }
+
+  .quote .author {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: right;
+  }
+
+  .banner {
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    max-width: 100%;
+    padding: 100px 300px;
+
+  }
+
+  .banner .container {
+    background-color: #3882f6;
+    border-radius: 7px;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .banner .title {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
+  }
+
+  .banner .text {
+    color: #f9faf8;
+  }
+  .banner .sign-up {
+    border-radius: 7px;
+    border: solid #f9faf8;
+    flex-shrink: 0;
+  }
+
+  .footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
   }
